@@ -1,0 +1,26 @@
+[project]
+name = "my-vllm-project"
+version = "0.1.0"
+requires-python = "==3.12"
+
+# List all your project's dependencies here
+dependencies = [
+    "vllm",
+    "torch",
+    "transformers",
+    "accelerate",
+    "pandas",
+    "datasets",
+    "scipy",
+    "numpy",
+    "sentence-transformers",
+    "tokenizers",
+    "scikit-learn",
+    "pydantic",
+    "pyarrow",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+# This tells the installer to ignore your data and output folders
+exclude = ["data*", "outputs*"]
