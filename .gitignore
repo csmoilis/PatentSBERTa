@@ -1,1 +1,6 @@
 my_vllm_project.egg-info/
+.venv/
+build/
+outputs/
+data_qlora/
+*.out
