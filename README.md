@@ -11,6 +11,15 @@ Excel with 100 patents are in: https://huggingface.co/datasets/csmoilis/model_df
 
 This document outlines the performance metrics for the Green Patent Labeling project, comparing the **GOLD LLM** and **GOLD Qlora** datasets.
 
+### Baseline Performance Metrics
+
+| Metric | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Not Green** | 0.77 | 0.79 | 0.78 | 4000 |
+| **Green** | 0.78 | 0.77 | 0.78 | 4000 |
+| **Accuracy** | | | **0.78** | **8000** |
+
+
 ---
 
 ### GOLD LLM Dataset: Model Performance Metrics
@@ -20,8 +29,7 @@ This document outlines the performance metrics for the Green Patent Labeling pro
 | **Not Green** | 0.8026 | 0.8113 | 0.8069 | 4000 |
 | **Green** | 0.8092 | 0.8005 | 0.8048 | 4000 |
 | **Accuracy** | | | **0.8059** | **8000** |
-| **Macro Avg** | 0.8059 | 0.8059 | 0.8059 | 8000 |
-| **Weighted Avg** | 0.8059 | 0.8059 | 0.8059 | 8000 |
+
 
 ---
 
@@ -33,12 +41,10 @@ This document outlines the performance metrics for the Green Patent Labeling pro
 | **Not Green** | 0.8021 | 0.8155 | 0.8087 | 4000 |
 | **Green** | 0.8124 | 0.7987 | 0.8055 | 4000 |
 | **Accuracy** | | | **0.8071** | **8000** |
-| **Macro Avg** | 0.8072 | 0.8071 | 0.8071 | 8000 |
-| **Weighted Avg** | 0.8072 | 0.8071 | 0.8071 | 8000 |
+
 
 ---
 
-> **Note:** For patent data sourcing and further validation, refer to [Google Patents](https://patents.google.com).
 ## Instructions
 
 in your terminal: git clone {link}
