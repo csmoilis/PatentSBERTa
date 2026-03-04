@@ -1,5 +1,8 @@
 # PatentSBERTa Finetunning
 
+All the scripts have a specific code. A means "assignment" and the number means to which assignment the code belongs.
+
+
 ## 100 Claims results
 
 •	Mistral-7B-Instruct-v0.3: Agreed with the gold label in 89 out of 100 patents analyzed.  
