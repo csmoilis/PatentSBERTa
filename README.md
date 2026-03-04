@@ -1,5 +1,14 @@
 # PatentSBERTa Finetunning
 
+## 100 Claims results
+
+•	Mistral-7B-Instruct-v0.3: Agreed with the gold label in 89 out of 100 patents analyzed.  
+
+•	Meta-Llama-3.1-8B-Instruct-bnb-4bit (Fine-tuned): Agreed with the gold label in 42 out of 100 patents analyzed.  
+
+•	Agentic Judge System: Agreed with the gold label in 38 out of 100 patents analyzed.
+
+
 ## QLoRA Fine-Tuning: Results
    
 The Qlora matched the human label 99% of the time, whereas the simple LLM from Assignment 2 matched 94%.  
